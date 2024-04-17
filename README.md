@@ -25,4 +25,4 @@ This project will deploy two EC2 instances in AWS and put them behind a Load Bal
 [Click here](LB-EC2-Hello-World-1259031245.us-east-1.elb.amazonaws.com)
 
 # Result (screenshots)
-![Place where Python script is pasted in the EC2 instance (in the User Data section)](EC2_HelloWorld/assets/user%data.png)
+![Place where Python script is pasted in the EC2 instance (in the User Data section)](EC2_HelloWorld/assets/user%20data.png)
