@@ -22,7 +22,7 @@ This project will deploy two EC2 instances in AWS and put them behind a Load Bal
 # View Result
 - You should be able to view the Hello World here (will not be kept live for long, due to costs):
 
-[Click here](LB-EC2-Hello-World-1259031245.us-east-1.elb.amazonaws.com)
+[Click here](LB-EC2-Hello-World-1259031245.us-east-1.elb.amazonaws.com){:target="_blank"}
 
 # Result (screenshots)
 ![Place where Python script is pasted in the EC2 instance (in the User Data section)](EC2_HelloWorld/assets/user%20data.png)
