@@ -1,4 +1,4 @@
-# Welcome to the AWS EC2 Instance Lanch with Load Balancer
+# Welcome to the AWS EC2 Instance Launch with Load Balancer
 This project will deploy two EC2 instances in AWS and put them behind a Load Balancer to demonstrate the ability of the Load Balancer (ALB) to "divvy" incoming traffic to multiple instances.
 
 # Objective
@@ -26,5 +26,3 @@ LB-EC2-Hello-World-1259031245.us-east-1.elb.amazonaws.com
 
 # Result (screenshots)
 ![Place where Python script is pasted in the EC2 instance (in the User Data section)](image.png)
-
-![Security Groups](image-1.png)
