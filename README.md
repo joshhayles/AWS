@@ -1,28 +1,20 @@
-# Welcome to the AWS EC2 Instance Launch with Load Balancer
-This project will deploy two EC2 instances in AWS and put them behind a Load Balancer to demonstrate the ability of the Load Balancer (ALB) to "divvy" incoming traffic to multiple instances.
+# My AWS repos and projects
+Hello, world! I'm Josh Hayles.
 
-# Objective
-- Create multiple EC2 instances in AWS (2, in this case)
-- Add standard network settings for traffic:
-  - use security group for inbound/outbound rules
-    - Security groups are essentially firewalls for your instances, controlling inbound/outbound traffic at the instance level. You can also control the security configurations / requirements for each instance individually. They can also be applied to Load Balancers, which we'll see during this project
-- Use a Python script attached to each instance that will automatically deploy a "Hello World" visual when the instance is visited via the URL
-- Create Application Load Balancer to divide up instance traffic
-  - create a new security group for this Load Balancer
-  - add Inbound rule that allows all HTTP (port 80) from "Anywhere-IPv4"
-  - allow All Traffic in Outbound rule
-  - after the new SG is created, go back to the Load Balancer page (where you're creating the Load Balancer) choose the newly created security group and remove all others
-  - inside 'Listeners and Routing' we need to route the traffic from port 80 to a target group. A target group is simply a group of your EC2 instances
-  - create a new target group
-    - after that's created, you'll be taken to the Instances screen. Choose all of those instances and click 'Include as pending' button. 
-    - then click 'Create target group' button
-    - back on the Load Balancer page, choose the newly created Target group
-    - finish by clicking the 'Create load balancer' button at the bottom
+This is my AWS repo section where I post AWS-related repos, projects, and links to my other publications.
 
-# View Result
-- You should be able to view the Hello World here (will not be kept live for long, due to costs):
+My intentions are to grow this section into a valuable resource for all-things AWS.
 
-[Click Here](http://lb-ec2-hello-world-1259031245.us-east-1.elb.amazonaws.com/)
+Take a look at the current repos, click through them and dive in!
 
-# Result (screenshots)
-![Place where Python script is pasted in the EC2 instance (in the User Data section)](EC2_HelloWorld/assets/user%20data.png)
+The following are a few goals and intentions:
+
+# Goals
+- To improve my skillsets around AWS products and services by building projects, demos, and writing about those experiences
+- Bust through gray areas of understanding by diving deeper into a specific topic, and demonstrate as many tangible results as possible
+- Improve my demonstration and communication abilities through technical writing projects
+  - while improving my own understanding of AWS concepts through technical writing, I'm also working to be sure those who consume this content also gain a clear understanding of the topic I'm writing about
+- Applying theoretical knowledge to real-world scenarios by building functional applications using AWS services
+- A showcase room for highlighting research, notes, projects, and examples from the AWS world
+- Breaking down complex topics and subjects to smaller, digestible chunks
+- Preparation for AWS Certifications
